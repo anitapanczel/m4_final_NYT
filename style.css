@@ -52,3 +52,32 @@ select {
     font-family: 'Overpass', sans-serif;
     */
 }
+
+.topnav{
+    background-color: var(--secondary);
+    color: var(--primary);
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    z-index: 100;
+    position: fixed;
+}
+.brand{
+    flex: 85%;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2em; 
+    font-weight: 400;
+    font-size: 12px;
+}
+.material-icons{
+    flex: 15%;
+    text-align: right;
+}
+.contentContainer{
+    padding-top: 40px;
+}
